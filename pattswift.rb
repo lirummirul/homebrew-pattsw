@@ -5,6 +5,6 @@ class Pattswift < Formula
   sha256 "f4e0d440c470080b2de4b5f27918247c8383762646eeef0f0b97532397f1fa3f"
 
   def install
-    bin.install "patsw.sh"
+    bin.install "pattsw.sh"
   end
 end
