@@ -2,9 +2,9 @@ class Pattswift < Formula
   desc ""
   homepage ""
   url "https://github.com/lirummirul/PattSwift/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "91034536355e96da2d3a894b30305b7980206fd91952adce38c7f7b695aa4eae"
+  sha256 "f4e0d440c470080b2de4b5f27918247c8383762646eeef0f0b97532397f1fa3f"
 
   def install
-    bin.install "pattsw.sh"
+    bin.install "patsw.sh"
   end
 end
