@@ -1,10 +1,10 @@
 class Pattswift < Formula
-  desc ""
-  homepage ""
-  url "https://github.com/lirummirul/PattSwift/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "f4e0d440c470080b2de4b5f27918247c8383762646eeef0f0b97532397f1fa3f"
-
+  desc "Generate files from templates"
+  homepage "https://github.com/lirummirul/PattSwift"
+  url "https://github.com/lirummirul/PattSwift/archive/refs/tags/v1.0.4.tar.gz"
+  sha256 "658a6d87b7c2b89f257bf5c93eeba4962d3cae4940beee4c94829d524975e99a"
+  
   def install
-    bin.install "pattsw.sh"
+    bin.install "pattsw"
   end
 end
