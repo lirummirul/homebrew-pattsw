@@ -1,8 +1,8 @@
 class Pattswift < Formula
-  desc "Generate files from templates"
-  homepage "https://github.com/lirummirul/PattSwift"
-  url "https://github.com/lirummirul/PattSwift/archive/refs/tags/v1.0.5.tar.gz"
-  sha256 "49f91603f772c16d9974de1a6df815c7ed5eddd9a2dc7972f680410da63d6a56"
+  desc "PattSwift - это утилита командной строки, разработанная для упрощения и ускорения процесса создания файлов и папок для проектов Swift. Предлагает готовые шаблоны для популярных архитектурных паттернов, таких как MVC, MVVM, VIPER и других."
+  homepage ""
+  url "https://github.com/lirummirul/PattSwift/archive/refs/tags/v1.0.6.tar.gz"
+  sha256 "5ffd0d74279dce03b14b3a7f91c4d90d818316c68f6c45752aeaf0f5bbb2f01f"
 
   def install
     bin.install "pattsw"
